@@ -5,6 +5,6 @@ function findMatching(array, name){
 }
 
 function fuzzyMatch(array, letters){
-  newArray = array.filter(function (item) {return item.slice(0, letters.length).toUpperCase() === letters.toUpperCase })
+  newArray = array.filter(function (item) {return item.slice(0, letters.length).toUpperCase() === letters.toUpperCase})
   return newArray
 }
