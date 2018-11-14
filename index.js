@@ -6,4 +6,5 @@ function findMatching(array, name){
 
 function fuzzyMatch(array, letters){
   newArray = array.filter(function (item) {return item.slice(0,3).toUpperCase() === letters.toUpperCase })
+  return newArray
 }
