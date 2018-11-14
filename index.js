@@ -10,6 +10,6 @@ function fuzzyMatch(array, letters){
 }
 
 function matchName(array, string){
-  newArray = array.filter(function (item) { return item[name].toUpperCase() === string.toUpperCase()})
+  newArray = array.filter(function (item) { return item.name.toUpperCase() === string.toUpperCase()})
   return newArray
 }
